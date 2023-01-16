@@ -21,9 +21,9 @@ def coeffecient_extractor(eqn):
 def main():
     print('Solve Equations using matrices')
 
-    eq1 = input('Enter your first equation in the form of "ax + by + c = d":  ')
-    eq2 = input('Enter your second equation in the form of "ax + by + c = d":  ')
-    eq3 = input('Enter your third equation in the form of "ax + by + c = d":  ')
+    eq1 = input('Enter your first equation in the form of "ax + by + cz = d":  ')
+    eq2 = input('Enter your second equation in the form of "ax + by + cz = d":  ')
+    eq3 = input('Enter your third equation in the form of "ax + by + cz = d":  ')
 
     r1 = coeffecient_extractor(eq1)
     r2 = coeffecient_extractor(eq2)
